@@ -33,5 +33,6 @@ class BasicMain {
 		b1.jump(25, 30);
 		b1.jump("Eidiko");
 		b1.jump("Praveen", "Dasari");
+		b1.jump(null); // defines String
 	}
 }
