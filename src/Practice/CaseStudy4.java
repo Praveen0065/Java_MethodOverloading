@@ -19,7 +19,7 @@ public class CaseStudy4 {
 		
 		CaseStudy4 c4 = new CaseStudy4();
 		c4.m1(15); // General Method
-		c4.m1(12,13); // Var arg Method
+		c4.m1(12,13); // VAR arg Method
 		c4.m1(12,13,20,25); // Var arg Method
 		
 		

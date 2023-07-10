@@ -1,5 +1,7 @@
 package Practice;
 
+// All the method names are same but different Arguments
+
 public class Basic {
 	
 	public void jump(int a) {
@@ -28,6 +30,12 @@ public class Basic {
 class BasicMain {
 	
 	public static void main(String[] args) {
+		
+//	   ____________	
+//	   | Basic b1 | = new Basic();		
+//	   ------------
+//		    ^--------------------------------------- In OverLoading Method resolution always take compiler Based on the Reference Type
+	
 		Basic b1 = new Basic();
 		b1.jump(15);
 		b1.jump(25, 30);
